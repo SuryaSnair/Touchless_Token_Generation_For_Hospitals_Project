@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: #000;
+}
+
+.background{
+    background: url(background_login.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+.text, .box{
+    margin-top: 45vh;
+    flex: 1;
+}
+
+
+.box{
+    margin-left: 10%;
+}
+
+
+
+.form{
+    background: transparent;
+    color: rgb(62, 59, 59);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+input{
+    margin: 20px 0;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(47, 44, 44);
+    font-size: medium;
+}
+
+.username, .password{
+    border-bottom: 1px solid  rgb(109, 174, 202);
+}
+
+.button{
+    background: transparent;
+    border: 3px solid rgb(109, 174, 202);
+    color: rgb(64, 63, 63);
+    font-size: 22px;
+}
+
+.button:hover{
+    background:rgb(109, 174, 202);
+    color: #000;
+}
