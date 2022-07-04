@@ -1,0 +1,65 @@
+/* time*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+section{
+    min-height: 8vh;
+    width: 180%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 175px;
+    background:white;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+section .container .time{
+    display: flex;
+    align-items: center;
+}
+.container .time .time-colon{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.time .time-colon .am_pm{
+    position: absolute;
+    top: 0;
+    right: -50px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.time .time-colon .time-text{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #f1eded;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.time .time-colon .time-text,
+.time .time-colon .colon{
+    font-size: 12px;
+    font-weight: 600;
+}
+.time .time-colon .colon{   
+    font-size: 20px;
+    margin: 0 10px;
+}
+.time .time-colon .time-text .text{
+    font-size: 12px;
+    font-weight: 700;
+}
